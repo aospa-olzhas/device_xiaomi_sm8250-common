@@ -1,7 +1,4 @@
 # Radio
-persist.radio.NO_STAPA=1
-persist.radio.VT_HYBRID_ENABLE=1
-persist.radio.dynamic_sar=false
 persist.rcs.supported=0
 persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.cdma_cap=true
@@ -14,5 +11,4 @@ persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.manual_nw_rej_ct=1
 persist.vendor.radio.mbn_cdma=/vendor/firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/oem_sw_j11.txt
 persist.vendor.radio.redir_party_num=1
-rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.com.android.dataroaming=true
