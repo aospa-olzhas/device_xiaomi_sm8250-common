@@ -146,13 +146,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl">
-        <name>vendor.qti.memory.pasrmanager</name>
-        <interface>
-            <name>IPasrManager</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="aidl"> 
         <name>vendor.qti.hardware.wifi.supplicant</name> 
         <interface>
