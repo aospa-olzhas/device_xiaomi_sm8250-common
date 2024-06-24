@@ -412,14 +412,16 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb-service.qti
+    android.hardware.usb-service.qti \
+    android.hardware.usb.gadget-service.qti
     
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
-    init.qcom.usb.sh
+    init.qcom.usb.sh \
+    usb_compositions.conf
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
