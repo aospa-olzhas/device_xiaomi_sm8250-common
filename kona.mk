@@ -259,17 +259,12 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayCommon \
-    FrameworkResOverlayCommon \
-    LineageSDKOverlayCommon \
-    LineageSettingsOverlayCommon \
-    SettingsOverlayCommon \
-    SettingsProviderOverlayCommon \
-    SystemUIOverlayCommon \
-    TelephonyOverlayCommon \
-    WifiResourcesOverlayCommon
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
+    MiKonaCarrierConfig \
+    MiKonaFrameworksRes \
+    MiKonaSettingsOverlay \
+    MiKonaSettingsProviderOverlay \
+    MiKonaSystemUIOverlay \
+    MiKonaWifiRes
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -288,6 +283,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     alarm \
     av \
+    overlay \
     perf \
     usb \
     wlan
