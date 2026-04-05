@@ -16,6 +16,9 @@ on init
     chmod 0644 /sys/touchpanel/fod_status
 
 on boot
+    write /sys/touchpanel/double_tap 1
+    chown system system /sys/touchpanel/double_tap
+    chmod 0660 /sys/touchpanel/double_tap
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/irq
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/irq_enable
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/wakeup_enable
