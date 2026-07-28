@@ -298,11 +298,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# Media
-PRODUCT_ODM_PROPERTIES += \
-    debug.stagefright.ccodec=4 \
-    debug.stagefright.omx_default_rank=0
-
 # Mlipay
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
