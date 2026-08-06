@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.popupcamera;
+package co.aospa.settings.popupcamera;
 
 import android.content.ComponentName;
 import android.content.Context;

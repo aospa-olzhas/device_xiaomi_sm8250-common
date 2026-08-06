@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.popupcamera;
+package co.aospa.settings.popupcamera;
 
 public class Constants {
     public static final int CAMERA_EVENT_DELAY_TIME = 100; // ms
