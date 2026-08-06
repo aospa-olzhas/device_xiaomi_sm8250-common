@@ -112,7 +112,7 @@ PRODUCT_PACKAGES += \
     libvolumelistener
 
 # Audio configs
-AUDIO_HAL_DIR := hardware/qcom-caf/sm8250/audio
+AUDIO_HAL_DIR := vendor/qcom/opensource/audio-hal/primary-hal
 
 PRODUCT_COPY_FILES += \
     $(AUDIO_HAL_DIR)/configs/common/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
